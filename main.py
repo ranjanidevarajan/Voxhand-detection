@@ -669,7 +669,7 @@ def lg_translate(lg,output):
 
 ####
 def translate_text(text, source_language, target_language):
-    api_key = 'AIzaSyDW9tvaQUsywmaILt73Go8Fy5mU6ILOixU'  # Replace with your API key
+  apikey = # Replace with your API key
     url = f'https://translation.googleapis.com/language/translate/v2?key={api_key}'
     payload = {
         'q': text,
@@ -802,5 +802,6 @@ def logout():
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', debug=True)
+
 
 
